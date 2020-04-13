@@ -396,13 +396,13 @@ a:hover {
   user-select: none;
   font-size: 1rem;
   border-radius: .3rem;
-  border: 1px solid transparent;
+  border: 3px solid;
   transition: all 500ms ease;
   cursor: pointer;
 }
 
 .button:focus {
-  outline: 0;
+  outline: 30;
 }
 
 .button:hover {
@@ -749,6 +749,10 @@ a:hover {
 /*--------------------------------------------------------------
 # Services
 --------------------------------------------------------------*/
+
+.devicon {
+  font-size: 3rem
+}
 .service-box {
   background-color: #fff;
   padding: 2.5rem 1.3rem;
