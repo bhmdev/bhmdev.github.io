@@ -12,6 +12,8 @@ body {
   /* This is to make most of the page black */
   background-color: #1a1c1d;
   color: #4e4e4e;
+  /* Below is the font color the about me section, under the projects section, and the get in touch section */
+  color: white;
 }
 
 h1,
@@ -188,15 +190,14 @@ a:hover {
 .box-pl2 {
   padding-left: 2rem;
 }
-
+/* Below is the CSS for the contact section */
 .box-shadow-full {
   padding: 3rem 1.25rem;
   position: relative;
-  background-color: #fff;
+  background-color: lightblack;
   margin-bottom: 3rem;
   z-index: 2;
-  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.06), 0 2px 5px 0 rgba(0, 0, 0, 0.2);
-}
+ }
 
 @media (min-width: 768px) {
   .box-shadow-full {
