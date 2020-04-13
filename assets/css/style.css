@@ -9,7 +9,8 @@
 # General
 --------------------------------------------------------------*/
 body {
-  background-color: #f5f5f5;
+  /* This is to make most of the page black */
+  background-color: #1a1c1d;
   color: #4e4e4e;
 }
 
@@ -17,10 +18,13 @@ h1,
 h2,
 h3,
 h4,
-h5,
+h5 {
+  color: #0078ff;
+};
+
 h6 {
-  color: #1e1e1e;
-}
+  color: white;
+};
 
 a {
   color: #1e1e1e;
@@ -90,7 +94,7 @@ a:hover {
 }
 
 .overlay-mf {
-  background-color: #0078ff;
+  background-color: #1a1c1d;
 }
 
 .overlay-mf {
@@ -100,7 +104,7 @@ a:hover {
   padding: 0;
   height: 100%;
   width: 100%;
-  opacity: .7;
+  opacity: 100%;
 }
 
 .paralax-mf {
@@ -151,7 +155,7 @@ a:hover {
 }
 
 .subtitle-a {
-  color: #4e4e4e;
+  color: white;
 }
 
 .line-mf {
@@ -254,36 +258,6 @@ a:hover {
   text-align: center;
   box-shadow: 0 0 0 10px #0078ff;
   display: block;
-}
-
-/*------/ Owl Carousel /------*/
-.owl-theme .owl-dots {
-  text-align: center;
-  margin-top: 18px;
-}
-
-.owl-theme .owl-dots .owl-dot {
-  display: inline-block;
-}
-
-.owl-theme .owl-dots .owl-dot span {
-  width: 18px;
-  height: 7px;
-  margin: 5px 5px;
-  background: #cde1f8;
-  border: 0px solid #cde1f8;
-  display: block;
-  transition: all 0.6s ease-in-out;
-  cursor: pointer;
-}
-
-.owl-theme .owl-dots .owl-dot:hover span {
-  background-color: #cde1f8;
-}
-
-.owl-theme .owl-dots .owl-dot.active span {
-  background-color: #1B1B1B;
-  width: 25px;
 }
 
 /*--/ Scrolltop s /--*/
@@ -501,7 +475,7 @@ a:hover {
 }
 
 .navbar-b.navbar-trans .nav-link:before {
-  background-color: #fff;
+  background-color: #1a1c1d;
 }
 
 .navbar-b.navbar-trans .nav-link:hover {
@@ -753,11 +727,15 @@ a:hover {
 .devicon {
   font-size: 3rem
 }
+/* Below is the background color for the skills icons */
 .service-box {
-  background-color: #fff;
+  background-color: #1a1c1d;
   padding: 2.5rem 1.3rem;
   border-radius: 1rem;
   margin-bottom: 3rem;
+  box-shadow: 3px 3px grey;
+  color: white;
+  /* Above is the color for the text of the icons  */
 }
 
 .service-box:hover .ico-circle {
