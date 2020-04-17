@@ -60,6 +60,10 @@ a:hover {
   background-color: white;
 }
 
+#aboutMe {
+  color: white;
+}
+
 .box-shadow, .paralax-mf, .service-box, .work-box, .card-blog {
   box-shadow: 0 13px 8px -10px rgba(0, 0, 0, 0.1);
 }
@@ -114,8 +118,8 @@ a:hover {
   opacity: 100%;
 }
 
-.project-name {
-  color: black;
+.project-description {
+  color: white;
 }
 
 .paralax-mf {
@@ -824,7 +828,7 @@ a:hover {
   margin-bottom: 3rem;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
-  background-color: #333333;
+  background-color: #4e4e4e82;
 }
 
 .work-img {
